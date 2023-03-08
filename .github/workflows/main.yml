@@ -1,0 +1,25 @@
+name: Deploy Docker Compose to Server
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: debian-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up SSH connection
+      uses: webfactory/ssh-agent@v0.5.0
+      with:
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+    - name: Install SSH tools
+      run: sudo apt-get update && sudo apt-get install -y sshpass
+
+    - name: Deploy with Docker Compose
+      run: |
+        sshpass -p ${{ secrets.SSH_PASSWORD }} ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} 'cd /home/leesuite/docker/mc_modernbeta_svr && docker-compose up -d'
