@@ -37,7 +37,6 @@ jobs:
 #    - name: Deploy with Docker Compose
 #      run: |
 #        ssh -o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} 'cd ${{ secrets.REPO_PATH }} && git pull && docker-compose down && docker-compose up -d'
-
     - name: Deploy with Docker Compose
       run: |
         ssh -o StrictHostKeyChecking=no -v -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} 'touch hello_world'
