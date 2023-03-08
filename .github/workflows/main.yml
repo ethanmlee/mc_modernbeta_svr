@@ -3,38 +3,35 @@ on:
   push:
     branches:
       - main
-
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
-
+    name: "Deploy to staging"
+    runs-on: ubuntu-latest
     steps:
-    
-    - name: Checkout code
-      uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-        
-    - name: Install dependencies
-      run: sudo apt-get update && sudo apt-get install -y ssh
-        
-    - name: Create SSH directory and known_hosts file
-      run: |
-        mkdir -p ~/.ssh
-        touch ~/.ssh/known_hosts
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$SSH_KEY" > ~/.ssh/prod.key
+          chmod 600 ~/.ssh/prod.key
+          cat >>~/.ssh/config <<END
+          Host prod
+            HostName $SSH_HOST
+            Port $SSH_PORT
+            User $SSH_USER
+            IdentityFile ~/.ssh/prod.key
+            StrictHostKeyChecking no
+          END
+        env:
+          SSH_USER: ${{ secrets.SSH_USERNAME }}
+          SSH_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
 
-    - name: Add GitHub to known hosts
-      run: ssh-keyscan github.com >> ~/.ssh/known_hosts
-      
-    - name: Add private key to agent
-      run: |
-        eval "$(ssh-agent -s)"
-        echo "${{ secrets.SSH_PRIVATE_KEY }}" > /home/runner/.ssh/id_ed25519
-        chmod 600 /home/runner/.sssh/id_ed25519
+      - name: Stop the server
+        run: ssh prod 'cd ${{ secrets.REPO_PATH }} && docker-compose down'
 
-#    - name: Deploy with Docker Compose
-#      run: |
-#        ssh -o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} 'cd ${{ secrets.REPO_PATH }} && git pull && docker-compose down && docker-compose up -d'
-    - name: Deploy with Docker Compose
-      run: |
-        ssh -o StrictHostKeyChecking=no -v -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} 'touch hello_world'
+      - name: fetch and reset
+        run: ssh prod 'cd ${{ secrets.REPO_PATH }} && git fetch && git reset --hard origin/main'
+
+      - name: Start the server
+        run: ssh prod 'cd ${{ secrets.REPO_PATH }} && docker-compose up -d'
