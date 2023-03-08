@@ -29,10 +29,8 @@ jobs:
     - name: Add private key to agent
       run: |
         eval "$(ssh-agent -s)"
-        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ssh_key
-        chmod 600 ssh_key
-        ssh-add ssh_key
-        rm ssh_key
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" > /home/runner/.ssh/id_ed25519
+        chmod 600 /home/runner/.sssh/id_ed25519
 
 #    - name: Deploy with Docker Compose
 #      run: |
