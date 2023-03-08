@@ -40,4 +40,4 @@ jobs:
 
     - name: Deploy with Docker Compose
       run: |
-        ssh -o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} 'touch hello_world'
+        ssh -o StrictHostKeyChecking=no -v -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} 'touch hello_world'
