@@ -10,11 +10,24 @@ jobs:
 
     steps:
     
-    - name: Set up SSH connection
-      uses: webfactory/ssh-agent@v0.5.0
+    - name: Checkout code
+      uses: actions/checkout@v2
       with:
-        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+        fetch-depth: 0
+        
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y ssh
+        
+    - name: Add GitHub to known hosts
+      run: ssh-keyscan github.com >> ~/.ssh/known_hosts
+    
+    - name: Add private key to agent
+      run: |
+        eval "$(ssh-agent -s)"
+        ssh-add <(echo ${{ secrets.SSH_PRIVATE_KEY }})
 
     - name: Deploy with Docker Compose
       run: |
-        ssh -i ${{ secrets.SSH_PRIVATE_KEY }} -o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} 'cd ${{ secrets.REPO_PATH }} && git pull && docker-compose down && docker-compose up -d'
+        ssh -o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} 'cd ${{ secrets.REPO_PATH }} && git pull && docker-compose down && docker-compose up -d'
