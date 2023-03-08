@@ -20,9 +20,14 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y ssh
         
+    - name: Create SSH directory and known_hosts file
+      run: |
+        mkdir -p ~/.ssh
+        touch ~/.ssh/known_hosts
+
     - name: Add GitHub to known hosts
       run: ssh-keyscan github.com >> ~/.ssh/known_hosts
-    
+      
     - name: Add private key to agent
       run: |
         eval "$(ssh-agent -s)"
