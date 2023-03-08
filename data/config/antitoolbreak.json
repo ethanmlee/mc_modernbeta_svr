@@ -1,0 +1,13 @@
+{
+  "triggerDurability": 5,
+  "sneakToBypass": false,
+  "triggerFilter_noEnchant": false,
+  "triggerFilter_enchanted": true,
+  "triggerFilter_wood": false,
+  "triggerFilter_stone": false,
+  "triggerFilter_iron": false,
+  "triggerFilter_gold": true,
+  "triggerFilter_diamond": true,
+  "triggerFilter_netherite": true,
+  "triggerFilter_other": false
+}

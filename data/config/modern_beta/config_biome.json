@@ -1,0 +1,130 @@
+{
+  "biomeProvider": "beta",
+  "singleBiome": "modern_beta:alpha",
+  "useOceanBiomes": true,
+  "climateTempNoiseScale": 0.025,
+  "climateRainNoiseScale": 0.05,
+  "climateDetailNoiseScale": 0.25,
+  "climateMappings": {
+    "desert": {
+      "biome": "modern_beta:beta_desert",
+      "oceanBiome": "modern_beta:beta_ocean",
+      "deepOceanBiome": "modern_beta:beta_ocean"
+    },
+    "taiga": {
+      "biome": "modern_beta:beta_taiga",
+      "oceanBiome": "modern_beta:beta_frozen_ocean",
+      "deepOceanBiome": "modern_beta:beta_frozen_ocean"
+    },
+    "seasonal_forest": {
+      "biome": "modern_beta:beta_seasonal_forest",
+      "oceanBiome": "modern_beta:beta_lukewarm_ocean",
+      "deepOceanBiome": "modern_beta:beta_lukewarm_ocean"
+    },
+    "shrubland": {
+      "biome": "modern_beta:beta_shrubland",
+      "oceanBiome": "modern_beta:beta_ocean",
+      "deepOceanBiome": "modern_beta:beta_ocean"
+    },
+    "savanna": {
+      "biome": "modern_beta:beta_savanna",
+      "oceanBiome": "modern_beta:beta_ocean",
+      "deepOceanBiome": "modern_beta:beta_ocean"
+    },
+    "plains": {
+      "biome": "modern_beta:beta_plains",
+      "oceanBiome": "modern_beta:beta_ocean",
+      "deepOceanBiome": "modern_beta:beta_ocean"
+    },
+    "ice_desert": {
+      "biome": "modern_beta:beta_tundra",
+      "oceanBiome": "modern_beta:beta_frozen_ocean",
+      "deepOceanBiome": "modern_beta:beta_frozen_ocean"
+    },
+    "rainforest": {
+      "biome": "modern_beta:beta_rainforest",
+      "oceanBiome": "modern_beta:beta_warm_ocean",
+      "deepOceanBiome": "modern_beta:beta_warm_ocean"
+    },
+    "forest": {
+      "biome": "modern_beta:beta_forest",
+      "oceanBiome": "modern_beta:beta_ocean",
+      "deepOceanBiome": "modern_beta:beta_ocean"
+    },
+    "tundra": {
+      "biome": "modern_beta:beta_tundra",
+      "oceanBiome": "modern_beta:beta_frozen_ocean",
+      "deepOceanBiome": "modern_beta:beta_frozen_ocean"
+    },
+    "swampland": {
+      "biome": "modern_beta:beta_swampland",
+      "oceanBiome": "modern_beta:beta_cold_ocean",
+      "deepOceanBiome": "modern_beta:beta_cold_ocean"
+    }
+  },
+  "voronoiPoints": [
+    {
+      "biome": "minecraft:snowy_plains",
+      "oceanBiome": "minecraft:frozen_ocean",
+      "deepOceanBiome": "minecraft:frozen_ocean",
+      "temp": 0.0,
+      "rain": 0.0
+    },
+    {
+      "biome": "minecraft:snowy_taiga",
+      "oceanBiome": "minecraft:frozen_ocean",
+      "deepOceanBiome": "minecraft:frozen_ocean",
+      "temp": 0.0,
+      "rain": 0.5
+    },
+    {
+      "biome": "minecraft:swamp",
+      "oceanBiome": "minecraft:cold_ocean",
+      "deepOceanBiome": "minecraft:cold_ocean",
+      "temp": 0.0,
+      "rain": 1.0
+    },
+    {
+      "biome": "minecraft:savanna",
+      "oceanBiome": "minecraft:ocean",
+      "deepOceanBiome": "minecraft:ocean",
+      "temp": 0.5,
+      "rain": 0.0
+    },
+    {
+      "biome": "minecraft:forest",
+      "oceanBiome": "minecraft:ocean",
+      "deepOceanBiome": "minecraft:ocean",
+      "temp": 0.5,
+      "rain": 0.5
+    },
+    {
+      "biome": "minecraft:plains",
+      "oceanBiome": "minecraft:ocean",
+      "deepOceanBiome": "minecraft:ocean",
+      "temp": 0.5,
+      "rain": 1.0
+    },
+    {
+      "biome": "minecraft:desert",
+      "oceanBiome": "minecraft:lukewarm_ocean",
+      "deepOceanBiome": "minecraft:lukewarm_ocean",
+      "temp": 1.0,
+      "rain": 0.0
+    },
+    {
+      "biome": "minecraft:dark_forest",
+      "oceanBiome": "minecraft:lukewarm_ocean",
+      "deepOceanBiome": "minecraft:lukewarm_ocean",
+      "temp": 1.0,
+      "rain": 0.5
+    },
+    {
+      "biome": "minecraft:jungle",
+      "oceanBiome": "minecraft:warm_ocean",
+      "deepOceanBiome": "minecraft:warm_ocean",
+      "temp": 1.0,
+      "rain": 1.0
+    }
+  ]
+}

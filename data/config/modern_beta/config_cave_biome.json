@@ -1,0 +1,82 @@
+{
+  "biomeProvider": "voronoi",
+  "singleBiome": "minecraft:lush_caves",
+  "voronoiHorizontalNoiseScale": 32.0,
+  "voronoiVerticalNoiseScale": 16.0,
+  "voronoiDepthMinY": -64,
+  "voronoiDepthMaxY": 64,
+  "voronoiPoints": [
+    {
+      "biome": "",
+      "temp": 0.0,
+      "rain": 0.5,
+      "depth": 0.75
+    },
+    {
+      "biome": "minecraft:lush_caves",
+      "temp": 0.1,
+      "rain": 0.5,
+      "depth": 0.75
+    },
+    {
+      "biome": "",
+      "temp": 0.5,
+      "rain": 0.5,
+      "depth": 0.75
+    },
+    {
+      "biome": "minecraft:dripstone_caves",
+      "temp": 0.9,
+      "rain": 0.5,
+      "depth": 0.75
+    },
+    {
+      "biome": "",
+      "temp": 1.0,
+      "rain": 0.5,
+      "depth": 0.75
+    },
+    {
+      "biome": "",
+      "temp": 0.0,
+      "rain": 0.5,
+      "depth": 0.25
+    },
+    {
+      "biome": "minecraft:lush_caves",
+      "temp": 0.2,
+      "rain": 0.5,
+      "depth": 0.25
+    },
+    {
+      "biome": "",
+      "temp": 0.4,
+      "rain": 0.5,
+      "depth": 0.25
+    },
+    {
+      "biome": "minecraft:deep_dark",
+      "temp": 0.5,
+      "rain": 0.5,
+      "depth": 0.25
+    },
+    {
+      "biome": "",
+      "temp": 0.6,
+      "rain": 0.5,
+      "depth": 0.25
+    },
+    {
+      "biome": "minecraft:dripstone_caves",
+      "temp": 0.8,
+      "rain": 0.5,
+      "depth": 0.25
+    },
+    {
+      "biome": "",
+      "temp": 1.0,
+      "rain": 0.5,
+      "depth": 0.25
+    }
+  ]
+}

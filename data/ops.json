@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "0e263cc0-f987-4c44-a2ee-414e7dcbb965",
+    "name": "Bitzzle",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "93f54094-a19e-4a31-84f9-eb13ea695e18",
+    "name": "PixelDough",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f9dc101a-9c58-4f81-8317-8fadbe6be592",
+    "name": "DoubleWhammy",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

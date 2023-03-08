@@ -1,0 +1,24 @@
+version: "3"
+services:
+  mc:
+    image: itzg/minecraft-server
+    container_name: modern_beta
+    hostname: modern_beta
+    ports:
+      - 25566:25565
+    environment:
+      TZ: America/New_York
+      TYPE: "FABRIC"
+      EULA: "TRUE"
+      ENABLE_AUTOPAUSE: "TRUE"
+      OVERRIDE_SERVER_PROPERTIES: "TRUE"
+      MAX_TICK_TIME: "-1"
+      DIFFICULTY: "hard"
+      SPAWN_PROTECTION: "0"
+      MOTD: "modern beta"
+      OPS: "Bitzzle,PixelDough"
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    volumes:
+      - ./data:/data

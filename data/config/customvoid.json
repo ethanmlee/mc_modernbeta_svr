@@ -1,0 +1,10 @@
+{
+  "renderVoid": true,
+  "voidDynamicHeight": false,
+  "voidType": "DEFAULT",
+  "voidThreshold": 63,
+  "voidTranslateHeight": 0,
+  "voidCustomRed": 60,
+  "voidCustomGreen": 90,
+  "voidCustomBlue": 140
+}

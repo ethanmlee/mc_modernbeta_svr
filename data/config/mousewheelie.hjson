@@ -1,0 +1,8 @@
+{
+	// General settings
+	general: {
+		// Enables using armor/elytra items to swap them with the currently equipped item.
+		// default: true
+		enable-quick-armor-swapping: true
+	}
+}

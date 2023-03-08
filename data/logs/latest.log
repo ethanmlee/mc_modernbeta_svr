@@ -1,0 +1,343 @@
+[14:09:32] [main/INFO]: Loading Minecraft 1.19.3 with Fabric Loader 0.14.17
+[14:09:32] [main/INFO]: Loading 127 mods:
+	- additionaladditions 5.2.0
+	   \-- libgui 6.5.2+1.19.3
+	        |-- jankson 5.0.0+j1.2.1
+	        \-- libninepatch 1.1.0
+	- antitoolbreak 1.0.0+mc1.19
+	- appleskin 2.4.2+mc1.19.3
+	- architectury 7.1.70
+	- bettercombat 1.6.1+1.19.3
+	- climbladdersfast 3.1-1.19
+	- cloth-config 9.0.94
+	   \-- cloth-basic-math 0.6.1
+	- comforts 6.1.1+1.19.3
+	   |-- cardinal-components-base 5.1.0
+	   |-- cardinal-components-entity 5.1.0
+	   \-- spectrelib 0.12.1+1.19.2
+	        |-- com_electronwill_night-config_core 3.6.5
+	        \-- com_electronwill_night-config_toml 3.6.5
+	- completeconfig 2.3.0
+	   |-- coat 1.0.0-beta.19+mc1.19.3
+	   |-- completeconfig-base 2.3.0
+	   |-- completeconfig-gui-cloth 2.3.0
+	   |-- completeconfig-gui-coat 2.3.0
+	   \-- completeconfig-gui-yacl 2.3.0
+	- creativecore 2.10.4
+	   \-- net_minecraftforge_eventbus 6.0.4
+	- ctov 3.1.6
+	- custom-fog 2.2.0-1.19.3
+	- customstars 1.2+1.19.3
+	- customvoid 0.6+1.19.3
+	- fabric-api 0.75.1+1.19.3
+	   |-- fabric-api-base 0.4.21+70be179c85
+	   |-- fabric-api-lookup-api-v1 1.6.20+49abcf7e85
+	   |-- fabric-biome-api-v1 12.1.1+b5d379b085
+	   |-- fabric-block-api-v1 1.0.5+e022e5d185
+	   |-- fabric-blockrenderlayer-v1 1.1.31+928d44d585
+	   |-- fabric-client-tags-api-v1 1.0.12+1134c5b885
+	   |-- fabric-command-api-v1 1.2.22+f71b366f85
+	   |-- fabric-command-api-v2 2.2.1+3fc4752e85
+	   |-- fabric-commands-v0 0.2.39+df3654b385
+	   |-- fabric-containers-v0 0.1.47+df3654b385
+	   |-- fabric-content-registries-v0 3.5.1+1d37d50285
+	   |-- fabric-convention-tags-v1 1.2.2+8e4e694f85
+	   |-- fabric-crash-report-info-v1 0.2.14+aeb40ebe85
+	   |-- fabric-data-generation-api-v1 11.3.1+40dc7a9485
+	   |-- fabric-dimensions-v1 2.1.42+00a2eb1085
+	   |-- fabric-entity-events-v1 1.5.7+b83334a085
+	   |-- fabric-events-interaction-v0 0.4.40+3baeb27a85
+	   |-- fabric-events-lifecycle-v0 0.2.44+df3654b385
+	   |-- fabric-game-rule-api-v1 1.0.30+99f9db8085
+	   |-- fabric-item-api-v1 2.1.10+312c329485
+	   |-- fabric-item-group-api-v1 2.1.12+1134c5b885
+	   |-- fabric-key-binding-api-v1 1.0.31+bc01e09785
+	   |-- fabric-keybindings-v0 0.2.29+df3654b385
+	   |-- fabric-lifecycle-events-v1 2.2.10+23a79c8a85
+	   |-- fabric-loot-api-v2 1.1.20+75e9821185
+	   |-- fabric-loot-tables-v1 1.1.24+9e7660c685
+	   |-- fabric-message-api-v1 5.1.0+c85585f885
+	   |-- fabric-mining-level-api-v1 2.1.31+49abcf7e85
+	   |-- fabric-models-v0 0.3.27+11ba9c3b85
+	   |-- fabric-networking-api-v1 1.2.17+4017a8cb85
+	   |-- fabric-networking-v0 0.3.34+df3654b385
+	   |-- fabric-object-builder-api-v1 5.4.1+eb2a3ba985
+	   |-- fabric-particles-v1 1.0.20+f1e4495b85
+	   |-- fabric-recipe-api-v1 1.0.1+5176f73d85
+	   |-- fabric-registry-sync-v0 2.1.0+f7b4d36485
+	   |-- fabric-renderer-api-v1 2.2.2+3a95925a85
+	   |-- fabric-renderer-indigo 0.8.0+3a95925a85
+	   |-- fabric-renderer-registries-v1 3.2.30+df3654b385
+	   |-- fabric-rendering-data-attachment-v1 0.3.25+afca2f3e85
+	   |-- fabric-rendering-fluids-v1 3.0.18+f1e4495b85
+	   |-- fabric-rendering-v0 1.1.33+df3654b385
+	   |-- fabric-rendering-v1 1.12.1+eb2a3ba985
+	   |-- fabric-resource-conditions-api-v1 2.3.0+e63306e085
+	   |-- fabric-resource-loader-v0 0.10.5+a91e48b785
+	   |-- fabric-screen-api-v1 1.0.41+f1e4495b85
+	   |-- fabric-screen-handler-api-v1 1.3.13+99f9db8085
+	   |-- fabric-sound-api-v1 1.0.8+75e9821185
+	   |-- fabric-transfer-api-v1 2.1.15+ccd377ba85
+	   \-- fabric-transitive-access-wideners-v1 2.3.1+40dc7a9485
+	- fabricloader 0.14.17
+	- fallingtree 3.11.2
+	- iceberg 1.1.4
+	- immersive_portals 2.5.1
+	   |-- imm_ptl_core 2.5.1
+	   \-- q_misc_util 2.5.1
+	- inventorysorter 1.8.10-1.19.3
+	   \-- kyrptconfig 1.5.1-1.19.3
+	- itemswapper 0.3.2-mc1.19.3
+	- jamlib 0.6.0+1.19.3
+	- java 17
+	- keybind_fix 1.0.0
+	- lithium 0.10.4
+	- minecraft 1.19.3
+	- modern_beta 5.1.1+1.19.3
+	- nochatreports 1.19.3-v2.0.0
+	   |-- fabric-rendering-v1 1.12.0+6dc0edd785
+	   \-- fabric-screen-api-v1 1.0.40+f1e4495b85
+	- owo 0.10.1+1.19.3
+	   \-- blue_endless_jankson 1.2.1
+	- patchouli 1.19.3-78-FABRIC
+	   \-- fiber 0.23.0-2
+	- phosphor 0.8.1
+	- plasmovoice 2.0.0+40cb88f
+	   |-- com_google_inject_guice 5.0.1
+	   |-- fabric-language-kotlin 1.9.1+kotlin.1.8.10
+	   |    |-- org_jetbrains_kotlin_kotlin-reflect 1.8.10
+	   |    |-- org_jetbrains_kotlin_kotlin-stdlib 1.8.10
+	   |    |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 1.8.10
+	   |    |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 1.8.10
+	   |    |-- org_jetbrains_kotlinx_atomicfu-jvm 0.19.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.6.4
+	   |    |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.6.4
+	   |    |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.4.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.4.1
+	   |    |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.4.1
+	   |    \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.4.1
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   \-- universalcraft 254
+	- player-animator 1.0.2+1.19.3
+	- rightclickharvest 3.1.0+1.19.3
+	- roughlyenoughitems 10.0.592
+	   \-- error_notifier 1.0.9
+	- scout 1.1.2
+	- serversleep_mr 1-datapack
+	- shulkerboxtooltip 3.2.4+1.19.3
+	- sound_physics_remastered 1.19.3-1.1.0
+	- spelunker 1.5.2-mc1.19.3
+	   |-- tweed4_data 1.2.1
+	   \-- tweed4_data_hjson 1.1.0
+	- taxfreelevels 1.3.3
+	- things 0.3.0+1.19.3
+	   \-- reach-entity-attributes 2.3.1
+	- trinkets 3.5.1
+	   |-- cardinal-components-base 5.1.0
+	   \-- cardinal-components-entity 5.1.0
+	- universal-graves 2.2.0+1.19.3
+	   |-- common-protection-api 1.0.0
+	   |-- hologram-api 0.2.3+1.19.3
+	   |-- placeholder-api 2.0.0-pre.2+1.19.3
+	   |-- polymer-core 0.3.0-rc.2+1.19.3-rc3
+	   |    |-- polymer-common 0.3.0-rc.2+1.19.3-rc3
+	   |    |    \-- packet_tweaker 0.3.0+1.18.2
+	   |    |-- polymer-networking 0.3.0-rc.2+1.19.3-rc3
+	   |    |    \-- polymer-common 0.3.0-rc.2+1.19.3-rc3
+	   |    |         \-- packet_tweaker 0.3.0+1.18.2
+	   |    \-- polymer-registry-sync-manipulator 0.3.0-rc.2+1.19.3-rc3
+	   |-- server_translations_api 1.4.18+1.19.2
+	   |    \-- packet_tweaker 0.3.0+1.18.2
+	   \-- sgui 1.2.0+1.19.3
+	- yet-another-config-lib 2.2.0
+[14:09:32] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/data/libraries/net/fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[14:09:32] [main/INFO]: Compatibility level set to JAVA_17
+[14:09:32] [main/INFO]: Loaded configuration file for Lithium: 106 options available, 2 override(s) found
+[14:09:33] [main/WARN]: Error loading class: net/minecraft/class_293 (java.lang.ClassNotFoundException: net/minecraft/class_293)
+[14:09:33] [main/WARN]: @Mixin target net.minecraft.class_293 was not found creativecore.fabric.mixins.json:VertexFormatMixin from mod creativecore
+[14:09:33] [main/WARN]: Force-disabling mixin 'world.combined_heightmap_update.HeightmapAccessor' as rule 'mixin.world.combined_heightmap_update' (added by mods [imm_ptl_core]) disables it and children
+[14:09:33] [main/WARN]: Force-disabling mixin 'world.combined_heightmap_update.WorldChunkMixin' as rule 'mixin.world.combined_heightmap_update' (added by mods [imm_ptl_core]) disables it and children
+[14:09:33] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [imm_ptl_core]) disables it and children
+[14:09:33] [main/WARN]: Error loading class: net/minecraft/class_7494 (java.lang.ClassNotFoundException: net/minecraft/class_7494)
+[14:09:33] [main/WARN]: Error loading class: net/minecraft/class_4224 (java.lang.ClassNotFoundException: net/minecraft/class_4224)
+[14:09:33] [main/WARN]: @Mixin target net.minecraft.class_4224 was not found sound_physics_remastered.mixins.json:ChannelAccessor from mod sound_physics_remastered
+[14:09:37] [main/INFO]: Building unoptimized datafixer
+[14:09:38] [main/INFO]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.class_3244
+[14:09:39] [main/INFO]: Hello from ClimbLaddersFast!
+[14:09:39] [main/INFO]: [Custom Fog] Initializing Custom Fog
+[14:09:39] [main/INFO]: [Custom Stars] Initializing Custom Stars...
+[14:09:39] [main/INFO]: [Custom Void] Initializing Custom Void...
+[14:09:39] [main/INFO]: Loading Immersive Portals config
+[14:09:39] [main/INFO]: IP Config Applied
+[14:09:39] [main/INFO]: Immersive Portals Mod Initializing
+[14:09:39] [main/INFO]: Dimensional Threading is not present
+[14:09:39] [main/INFO]: Pehkui is not present
+[14:09:39] [main/INFO]: Gravity API is not present
+[14:09:39] [main/INFO]: [jamlib] Mod initialized!
+[14:09:39] [main/INFO]: [Modern Beta] Initializing Modern Beta...
+[14:09:39] [main/INFO]: KONNICHIWA ZA WARUDO!
+[14:09:39] [main/INFO]: Default JVM text encoding is: UTF-8
+[14:09:39] [main/INFO]: Reading config file NoChatReports/NCR-Common.json...
+[14:09:39] [main/INFO]: Writing config file NoChatReports/NCR-Common.json...
+[14:09:39] [main/INFO]: My Seethenhagen factory makes 331 pounds of licorice per hour
+[14:09:39] [main/INFO]: [jamlib] Registered config for rightclickharvest
+[14:09:39] [main/INFO]: [rightclickharvest] Mod initialized!
+[14:09:39] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[14:09:39] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[14:09:39] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[14:09:39] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[14:09:39] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[14:09:39] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[14:09:39] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[14:09:39] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[14:09:39] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[14:09:39] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[14:09:39] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[14:09:39] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[14:09:39] [main/INFO]: Reloading reverb parameters
+[14:09:39] [main/INFO]: [Custom Fog] Loading server config file
+[14:09:39] [main/INFO]: [Custom Fog] Initializing packet sender
+[14:09:39] [main/INFO]: Loading ItemSwapper server support.
+[14:09:39] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:09:41] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[14:09:42] [main/INFO]: Loaded 7 recipes
+[14:09:42] [main/INFO]: Loaded 1246 advancements
+[14:09:42] [main/INFO]: [additionaladditions] Loaded 0 behaviours
+[14:09:42] [main/INFO]: [REI] ----------------------------------------
+[14:09:42] [main/INFO]: [REI] REIPlugin starting main-reload for START.
+[14:09:42] [main/INFO]: [REI] Plugins (3):
+[14:09:42] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[14:09:42] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[14:09:42] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[14:09:42] [main/INFO]: [REI] ----------------------------------------
+[14:09:42] [main/INFO]: [REI] ########################################
+[14:09:42] [main/INFO]: [REI] REIServerPlugin starting main-reload for START.
+[14:09:42] [main/INFO]: [REI] Plugins (3):
+[14:09:42] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[14:09:42] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[14:09:42] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[14:09:42] [main/INFO]: [REI] ########################################
+[14:09:42] [main/INFO]: [REI] REIPlugin finished post-reload for START in 822.6 μs, totaling 27.61 ms.
+[14:09:42] [main/INFO]: [REI] REIServerPlugin finished post-reload for START in 375.5 μs, totaling 3.440 ms.
+[14:09:42] [main/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[14:09:42] [main/INFO]: [REI] REIPlugin starting main-reload for END.
+[14:09:42] [main/INFO]: [REI] Plugins (3):
+[14:09:42] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[14:09:42] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[14:09:42] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[14:09:42] [main/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[14:09:42] [main/INFO]: [REI] ----------------------------------------
+[14:09:42] [main/INFO]: [REI] REIServerPlugin starting main-reload for END.
+[14:09:42] [main/INFO]: [REI] Plugins (3):
+[14:09:42] [main/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[14:09:42] [main/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[14:09:42] [main/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[14:09:42] [main/INFO]: [REI] ----------------------------------------
+[14:09:42] [main/INFO]: [REI] REIPlugin finished post-reload for END in 304.7 μs, totaling 21.75 ms.
+[14:09:42] [main/INFO]: [REI] REIServerPlugin finished post-reload for END in 288.8 μs, totaling 6.864 ms.
+[14:09:42] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 5870 translation keys
+[14:09:42] [main/INFO]: Mixing server.MixinDedicatedServer from mixins/common/nochatreports.mixins.json into net.minecraft.class_3176
+[14:09:42] [main/INFO]: Mixing server.MixinPlayerList from mixins/common/nochatreports.mixins.json into net.minecraft.class_3324
+[14:09:42] [main/INFO]: Mixing common.MixinServerStatus from mixins/common/nochatreports.mixins.json into net.minecraft.class_2926
+[14:09:42] [main/INFO]: Applied 95 biome modifications to 95 of 106 new biomes in 9.000 ms
+[14:09:42] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[14:09:42] [Server thread/INFO]: Loading properties
+[14:09:42] [Server thread/INFO]: Default game type: SURVIVAL
+[14:09:42] [Server thread/INFO]: Generating keypair
+[14:09:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:09:42] [Server thread/INFO]: Using epoll channel type
+[14:09:43] [Server thread/INFO]: Preparing level "world"
+[14:09:46] [Netty Epoll Server IO #1/INFO]: Mixing server.MixinServerboundChatCommandPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7472
+[14:09:46] [Netty Epoll Server IO #1/INFO]: Mixing server.MixinServerboundChatPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_2797
+[14:09:46] [Netty Epoll Server IO #1/INFO]: Mixing server.MixinServerboundChatSessionUpdatePacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7861
+[14:09:46] [Server thread/INFO]: Bedrock Replacement minecraft:overworld null
+[14:09:46] [Netty Epoll Server IO #1/INFO]: Mixing common.MixinServerStatusSerializer from mixins/common/nochatreports.mixins.json into net.minecraft.class_2926$class_2929
+[14:09:46] [Server thread/INFO]: Bedrock Replacement immersive_portals:alternate4 null
+[14:09:46] [Server thread/INFO]: Bedrock Replacement minecraft:the_nether null
+[14:09:46] [Server thread/INFO]: Bedrock Replacement immersive_portals:alternate2 null
+[14:09:46] [Server thread/INFO]: Bedrock Replacement immersive_portals:alternate3 null
+[14:09:46] [Server thread/INFO]: Bedrock Replacement minecraft:the_end null
+[14:09:46] [Server thread/INFO]: Bedrock Replacement immersive_portals:alternate5 null
+[14:09:46] [Server thread/INFO]: Bedrock Replacement immersive_portals:alternate1 null
+[14:09:46] [Server thread/INFO]: Successfully read IP's dimension id record
+[14:09:46] [Server thread/INFO]: Start Completing Dimension Id Record
+[14:09:46] [Server thread/INFO]: Before:
+minecraft:the_nether -> -1
+minecraft:overworld -> 0
+minecraft:the_end -> 1
+immersive_portals:alternate3 -> 4
+immersive_portals:alternate5 -> 6
+immersive_portals:alternate4 -> 5
+immersive_portals:alternate1 -> 2
+immersive_portals:alternate2 -> 3
+[14:09:46] [Server thread/INFO]: Server Loaded Dimensions:
+immersive_portals:alternate1
+immersive_portals:alternate2
+immersive_portals:alternate3
+immersive_portals:alternate4
+immersive_portals:alternate5
+minecraft:overworld
+minecraft:the_end
+minecraft:the_nether
+
+[14:09:46] [Server thread/INFO]: After:
+minecraft:the_nether -> -1
+minecraft:overworld -> 0
+minecraft:the_end -> 1
+immersive_portals:alternate3 -> 4
+immersive_portals:alternate5 -> 6
+immersive_portals:alternate4 -> 5
+immersive_portals:alternate1 -> 2
+immersive_portals:alternate2 -> 3
+[14:09:46] [Server thread/INFO]: Dimension Id Info Saved to File
+[14:09:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:09:49] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:09:49] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:09:49] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:09:49] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:09:49] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:09:49] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:09:49] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:09:49] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:09:50] [Worker-Main-3/INFO]: Preparing spawn area: 33%
+[14:09:50] [Server thread/INFO]: Time elapsed: 4307 ms
+[14:09:50] [Server thread/INFO]: Loading custom portal generation
+[14:09:50] [Server thread/INFO]: Done (7.607s)! For help, type "help"
+[14:09:50] [Server thread/INFO]: Starting remote control listener
+[14:09:50] [Server thread/INFO]: Thread RCON Listener started
+[14:09:50] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[14:09:50] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 10948 bytes (in 2 string chunks with the size of 10000)
+[14:09:51] [Server thread/INFO]: UDP server is started on /0.0.0.0:25565
+[14:09:51] [Server thread/INFO]: Server performance level: good
+[14:09:51] [Server thread/ERROR]: Memory not enough. Try to Shrink loading distance or allocate more memory. If this happens with low loading distance, it usually indicates memory leak
+[14:09:51] [Server thread/ERROR]: Memory:  90% 926/1024MB
+[14:09:51] [Server thread/ERROR]: Memory not enough. Try to Shrink loading distance or allocate more memory. If this happens with low loading distance, it usually indicates memory leak
+[14:09:51] [Server thread/ERROR]: Memory:  90% 931/1024MB
+[14:09:51] [Server thread/ERROR]: Memory not enough. Try to Shrink loading distance or allocate more memory. If this happens with low loading distance, it usually indicates memory leak
+[14:09:51] [Server thread/ERROR]: Memory:  90% 926/1024MB
+[14:09:51] [Server thread/INFO]: The logging reached its limit. Similar log won't be displayed.
+[14:13:26] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[14:13:26] [Server thread/INFO]: [Rcon: Stopping the server]
+[14:13:26] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[14:13:26] [Server thread/INFO]: UDP server is stopped
+[14:13:26] [Server thread/INFO]: Stopping server
+[14:13:26] [Server thread/INFO]: Saving players
+[14:13:26] [Server thread/INFO]: Saving worlds
+[14:13:27] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:overworld New World'/minecraft:overworld
+[14:13:27] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate4 New World'/immersive_portals:alternate4
+[14:13:27] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_nether New World'/minecraft:the_nether
+[14:13:27] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate2 New World'/immersive_portals:alternate2
+[14:13:27] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate3 New World'/immersive_portals:alternate3
+[14:13:27] [Server thread/INFO]: Saving chunks for level 'ServerWorld minecraft:the_end New World'/minecraft:the_end
+[14:13:27] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate5 New World'/immersive_portals:alternate5
+[14:13:27] [Server thread/INFO]: Saving chunks for level 'ServerWorld immersive_portals:alternate1 New World'/immersive_portals:alternate1
+[14:13:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:13:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate4): All chunks are saved
+[14:13:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:13:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate2): All chunks are saved
+[14:13:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate3): All chunks are saved
+[14:13:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:13:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate5): All chunks are saved
+[14:13:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (alternate1): All chunks are saved
+[14:13:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:13:27] [Server thread/INFO]: Thread RCON Listener stopped

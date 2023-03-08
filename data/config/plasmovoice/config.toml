@@ -1,0 +1,34 @@
+# Used to store server-related config file on the client
+# Set it to a single value on different servers if you want them to share config
+server_id = "df81c8f0-e607-4199-9dc6-d9b074399f37"
+default_language = "en_us"
+debug = false
+
+[host]
+ip = "0.0.0.0"
+port = 0
+
+[voice]
+# Supported sample rates:
+# 8000
+# 12000
+# 24000
+# 48000
+sample_rate = 48000
+keep_alive_timeout = 15000
+mtu_size = 1024
+client_mod_required = false
+
+[voice.proximity]
+distances = [8, 16, 32]
+default_distance = 16
+
+[voice.opus]
+# Opus application mode
+# Supported values: VOIP, AUDIO, RESTRICTED_LOWDELAY
+# Default is VOIP
+mode = "VOIP"
+# Opus bitrate
+# Supported values: -1000 (auto), -1 (max), [500-512_000]
+# Default is -1000
+bitrate = -1000
