@@ -6,7 +6,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: debian-latest
+    runs-on: alpine-latest
 
     steps:
     - name: Checkout code
@@ -17,9 +17,8 @@ jobs:
       with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-    - name: Install SSH tools
-      run: sudo apt-get update && sudo apt-get install -y sshpass
-
     - name: Deploy with Docker Compose
       run: |
-        sshpass -p ${{ secrets.SSH_PASSWORD }} ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} 'cd /home/leesuite/docker/mc_modernbeta_svr && docker-compose up -d'
+        ssh -i ${{ secrets.SSH_PRIVATE_KEY }} -o StrictHostKeyChecking=no -p ${SSH_PORT} ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} 'cd /path/to/project && git pull && docker-compose up -d'
+      env:
+        SSH_PORT: ${{ secrets.SSH_PORT }}
