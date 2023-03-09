@@ -18,6 +18,7 @@ services:
       SPAWN_PROTECTION: "0"
       MOTD: "modern beta"
       OPS: "Bitzzle,PixelDough"
+      MEMORY: 8G
     tty: true
     stdin_open: true
     restart: unless-stopped
