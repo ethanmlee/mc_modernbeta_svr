@@ -6,6 +6,7 @@ services:
     hostname: modern_beta
     ports:
       - 25566:25565
+      - 17088:17088
     environment:
       TZ: America/New_York
       TYPE: "FABRIC"
