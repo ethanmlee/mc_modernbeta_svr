@@ -1,7 +1,8 @@
-version: "3"
+version: "2.4"
 services:
   mc:
     image: itzg/minecraft-server
+    mem_limit: 8G
     container_name: modern_beta
     hostname: modern_beta
     ports:
