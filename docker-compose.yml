@@ -5,7 +5,8 @@ services:
     container_name: modern_beta
     hostname: modern_beta
     ports:
-      - 25566:25565
+      - 25566:25565/tcp
+      - 17088:17088/udp
     environment:
       TZ: America/New_York
       TYPE: "FABRIC"
