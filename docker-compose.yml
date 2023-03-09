@@ -1,8 +1,7 @@
-version: "2.4"
+version: "3"
 services:
   mc:
     image: itzg/minecraft-server
-    mem_limit: 8G
     container_name: modern_beta
     hostname: modern_beta
     ports:
@@ -19,6 +18,7 @@ services:
       SPAWN_PROTECTION: "0"
       MOTD: "modern beta"
       OPS: "Bitzzle,PixelDough"
+      MEMORY: 8G
     tty: true
     stdin_open: true
     restart: unless-stopped
